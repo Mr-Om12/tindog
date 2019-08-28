@@ -43,7 +43,6 @@ padding:0 0 4.5rem;
 }
 .nav-link{
   font-size: 1.8rem;
-  font-family: cursive;
   font-weight: bold;
 }
 .DB{
@@ -133,4 +132,13 @@ padding: 7% 15%;
 @media(max-width: 1028px) {
   #title{
 text-align: center; }
+}
+@media(max-width:1028px) {
+
+.navbar-dark .navbar-nav .nav-link
+{
+  font-size: 30px;
+font-weight: bold;
+    color:black;
+}
 }
